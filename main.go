@@ -1,15 +1,14 @@
 package main
 
-import (
-	"log"
-	"net/http"
+import "log"
 
-	"github.com/gorilla/mux"
-)
+//	"github.com/gorilla/mux"
 
 func main() {
-	router := mux.NewRouter()
+	//router := mux.NewRouter()
 
 	//Tratamento do Start da API
-	log.Fatal(http.ListenAndServe(":8080", router))
+	//go run
+	//log.Fatal(http.ListenAndServe(":8080", router))
+	log.Printf("teste")
 }
